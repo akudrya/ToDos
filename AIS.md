@@ -15,9 +15,11 @@ The goals for my participation in AIS:
 
 ## Week 2 01/25 - 02/02
 
+- [ ] Calculate number and location of receiving stations using online globe (EarthBrowser or Google Earth).
 - [ ] Interview users of AIS: what kind of data do they use/submit, limitations, problems in system and interface and potential obstacles.
-- [ ] Find and interview potential users of a small AIS receivers to learn about their needs and problems to solve. Learn about usage conditions, power supply and internet connection.
+- [ ] Find and interview potential users of a small AIS receivers to learn about their needs and problems to solve. Learn about usage conditions, power supply and internet connection. (iSailor)
 - [ ] Research from online sources about Exact Earth and Marinetraffic products, partnerships, users.
+- [ ] Plan potential products using s-AIS (B2B, B2b, B2C)
 
 ## Week 3 02/03 - 02/10
 
@@ -26,6 +28,7 @@ The goals for my participation in AIS:
 - [ ] Make a draft oа empty API on JavaScript
 - [ ] Research AIS data samples
 - [ ] Find solutions for storing and accessing data via API
+- [ ] Plan mechanism of data storage, access, security for all perspective ways of providing API. 
 
 ## Week 4 02/11 - 02/18
 
