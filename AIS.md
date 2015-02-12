@@ -32,5 +32,7 @@ The goals for my participation in AIS:
 
 ## Week 4 02/11 - 02/18
 
-- [x] Finalize a prototype of API for accessing AIS data.
-- [ ] Finalize my version of a description/specification of AIS product.
+- [ ] Make an API demonstraion: prepare dataset, requests, pdf
+- [ ] Research integration of satellite imagery and AIS data
+- [ ] Make a demonstration of applications of AIS data + S.I. data in API: illigal fishing, oil spills, pirates, ...
+
