@@ -5,16 +5,24 @@
 These are the way that I classified the work early on in oue conversation. Based on recent conversations and your research feel free to modify the projects.
 
 1. AIS market assessment
- - project description, goals, and deliverables
+ - project description: study market structuree of AIS systems, identify potential partners, customers and opportunities,
+ - goals: finalize specification of the product by estimating access modes, potential traffic, priority of the tasks
+ - deliverables: pdf with description of user profile, market size, product description, revenue model for each API product. 
 
 2. Demo API using static data
- - project description, goals, and deliverables
+ - project description: development of demo API using static data in web-browser with UI and as API provding data in JSON. 
+ - goals: demonstrate how can AIS data from Perseus-M satellite can be accessed using API and UI
+ - deliverables: a web-page with UI mapping AIS data, back-end for handling requests and demo requests to API to demonstrate each product's work.  
 
 3. Dynamic API
- - project description, goals, and deliverables
+ - project description: R&D of system for collecting data from receining stations and giving API immidiate access to it.
+ - goals: check feasibility and developm MVP for collecting AIS data directly from receivers and immidiately provide it in the API
+ - deliverables: system for collecting AIS data from recievers and storing it in the API server.
 
 4. Prototype imagery and AIS solutions
- - project description, goals, and deliverables
+ - project description: development of an algorithm for combining satellite images with AIS data
+ - goals: check how satellite imagery can be enriched by AIS data
+ - deliverables: developed MVP for finding all satellite images having a given vessel and all the vessels that are located on a satellite image.
 
 ##Deliverables
 
@@ -26,6 +34,7 @@ These are the way that I classified the work early on in oue conversation. Based
   - Plan how to integrate AIS + satellite imagery data: I will implement matching vessels' coordinates and label satellite images with AIS data. I expect to have an issue with time synchronization. At least IвЂ™ll show approximately what vessels are on the photographed area. This is an integration with images themselves.  
   - Implement an access to satellite images automatically.
   - AIS + satellite imagery use cases. I'll make both slides and an online map using Mapbox where by clicking on a certain point a user can see a satellite image labeled with AIS data and with highlighted signs of sought-for types of activities. At first it will be a static picture for each use case.
+  - Plan high-level architechture of the system: platform, software, language, access modes
 
 ### Week 2 (February 23-27):
 - Imagery prototype - Demo API for AIS+Satellite imagery product. 
@@ -64,6 +73,7 @@ These are the way that I classified the work early on in oue conversation. Based
   - tested demo requests
  
  ### Week 6 (March 30 - April 3):
+- Dynamic API
   - beta tests
   - making edits, corrections
   - documentation
