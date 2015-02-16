@@ -19,45 +19,40 @@ These are the way that I classified the work early on in oue conversation. Based
 ##Deliverables
 
 ### Week 1 (February 16-20):
-
-- Demo API
-  - Create simple back end API on PHP to handle conditional requests like coordinates, name and MMSI filtering so we can ...
-  - Design sample requests to demonstrate APIвЂ™s work for selected types of products. So that youвЂ™ll have text strings to be launched in web browser to demonstrate what data will be provided in JSON container.
 - Market research 
-  - Pdf explaining what products can be launched from the API for small to big players. Here IвЂ™ll give examples of data to be delivered, pricing framework, how data access going to be organized. (by Monday)
-- Demo application
-  - Developed feature: display vesselвЂ™s track on a map and find all satellite images taken there for that period of time. This is an integration with satellite imagery catalog.
-
-
-### Week 2 (February 23-27):
+  - Pdf explaining what products can be launched from the API for small to big players. Here I'll give examples of data to be delivered, pricing framework, how data access going to be organized. (by Monday)
 
 - Imagery prototype
   - Plan how to integrate AIS + satellite imagery data: I will implement matching vessels' coordinates and label satellite images with AIS data. I expect to have an issue with time synchronization. At least IвЂ™ll show approximately what vessels are on the photographed area. This is an integration with images themselves.  
-  - Implement an access to satellite images.
-  - AIS + satellite imagery use cases. IвЂ™ll make both slides and an online map using Mapbox where by clicking on a certain point a user can see a satellite image labeled with AIS data and with highlighted signs of sought-for types of activities. At first it will be a static picture for each use case.
+  - Implement an access to satellite images automatically.
+  - AIS + satellite imagery use cases. I'll make both slides and an online map using Mapbox where by clicking on a certain point a user can see a satellite image labeled with AIS data and with highlighted signs of sought-for types of activities. At first it will be a static picture for each use case.
 
-
+### Week 2 (February 23-27):
+- Imagery prototype - Demo API for AIS+Satellite imagery product. 
+  - product specification: use cases, modes of work design
+  - back-end
+  
 ### Week 3 (March 2-6):
+ - Imagery prototype - Demo API for AIS+Satellite imagery product. 
+  - front-end
+  - tested demo requests
+  - documentation
+  - report
+  
+ ### Week 4 (March 9-13):
+- Demo API 
+  - Create back-end of the API on PHP to handle conditional requests like coordinates, name and MMSI filtering.
+  - Design sample requests to demonstrate API's work for selected types of products. So that you'll have text strings to be launched in web browser to demonstrate what data will be provided in JSON container.
 
-- Imagery prototype
-  - Integrate more complex logic of showing data in Mapbox UI. Currently I've only labeled but all points from a sample dataset, filtered repeated dots and added representation of vesselвЂ™s direction.
-- Demo API implementation + reporting
+ ### Week 5 (March 16-20):
+ - Demo API implementation + reporting
+  - Integrate more complex logic of showing data in Mapbox UI. Currently I've only labeled but all points from a sample dataset, filtered repeated dots and added representation of vessel's direction.
   - Launch AWS virtual machine (currently I use my own web hosting Bluehost).
   - Migrate all the data+API back-end
   - a  report what I've done, next steps, problems and opportunities.
   - API documentation. 
   - Plan of further development
-  
- ### Week 4 (March 9-13):
- - Imagery prototype - Demo API for AIS+Satellite imagery product. 
-  - product specification: use cases, modes of work design
-  - back-end
-  - front-end
-  - tested demo requests
-  - documentation
-  - report
 
- ### Week 5 (March 16-20):
 - Dynamic API
  - product specification: use cases, modes of work design
  - research of how to integrate API with data received from the satellite 
