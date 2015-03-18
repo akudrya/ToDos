@@ -31,43 +31,43 @@ These are the way that I classified the work early on in oue conversation. Based
 
 ### Week 1 (February 16-20):
 - Market research 
-  - Pdf explaining what products can be launched from the API for small to big players. Here I'll give examples of data to be delivered, pricing framework, how data access going to be organized. (by Monday)
+  - [x] Pdf explaining what products can be launched from the API for small to big players. Here I'll give examples of data to be delivered, pricing framework, how data access going to be organized. (by Monday) https://github.com/akudrya/AIS/blob/master/s-AIS%20market%20research.pdf
 
 - Imagery prototype
-  - Plan how to integrate AIS + satellite imagery data: I will implement matching vessels' coordinates and label satellite images with AIS data. I expect to have an issue with time synchronization. At least IРІР‚в„ўll show approximately what vessels are on the photographed area. This is an integration with images themselves.  
-  - Implement an access to satellite images automatically.
-  - AIS + satellite imagery use cases. I'll make both slides and an online map using Mapbox where by clicking on a certain point a user can see a satellite image labeled with AIS data and with highlighted signs of sought-for types of activities. At first it will be a static picture for each use case.
-  - Plan high-level architechture of the system: platform, software, language, access modes
+  - [x] Plan how to integrate AIS + satellite imagery data: I will implement matching vessels' coordinates and label satellite images with AIS data. I expect to have an issue with time synchronization. At least I will show approximately what vessels are on the photographed area. This is an integration with images themselves. - https://github.com/akudrya/AIS/blob/master/Landsat%20Project/Use%20Cases/AIS%2BLandsat%20-%20current%20state%2003:11.pdf
+  - [x] Implement an access to satellite images automatically. - I've launched Landsat Metadata API. - https://github.com/akudrya/AIS/blob/master/Landsat%20Project/APIIntegration/app.js
+  - [x] AIS + satellite imagery use cases. I'll make both slides and an online map using Mapbox where by clicking on a certain point a user can see a satellite image labeled with AIS data and with highlighted signs of sought-for types of activities. At first it will be a static picture for each use case. -  https://github.com/akudrya/AIS/blob/master/Landsat%20Project/Use%20Cases/Use%20Cases.pdf
+  - [x] Plan high-level architechture of the system: platform, software, language, access modes - https://github.com/akudrya/AIS/blob/master/Landsat%20Project/Use%20Cases/Landsat%20use%20cases%2003:17.pdf
 
 ### Week 2 (February 23-27):
 - Imagery prototype - Demo API for AIS+Satellite imagery product. 
-  - product specification: use cases, modes of work design
-  - back-end
+  - [x] product specification: use cases, modes of work design - https://github.com/akudrya/AIS/blob/master/Landsat%20Project/Use%20Cases/AIS%2BLandsat%20-%20current%20state%2003:16.pdf
+  - [x] back-end - https://github.com/akudrya/AIS/blob/master/Landsat%20Project/LandsatSearchVer1/js/app.js
   
 ### Week 3 (March 2-6):
  - Imagery prototype - Demo API for AIS+Satellite imagery product. 
-  - front-end
-  - tested demo requests
-  - documentation
-  - report
+  - [x] front-end - https://github.com/akudrya/AIS/blob/master/Landsat%20Project/LandsatSearchVer1/index.html
+  - [x] tested demo requests - https://github.com/AstroDigital/AIS/issues/3
+  - [x] documentation - https://github.com/akudrya/AIS/blob/master/Landsat%20Project/Use%20Cases/Landsat%20use%20cases%2003:17.pdf
+  - [x] report - report on reseach articles - https://github.com/akudrya/AIS/blob/master/Landsat%20Project/Use%20Cases/Tracking%20vessels.pdf
   
  ### Week 4 (March 9-13):
 - Demo API 
-  - Create back-end of the API on PHP to handle conditional requests like coordinates, name and MMSI filtering.
-  - Design sample requests to demonstrate API's work for selected types of products. So that you'll have text strings to be launched in web browser to demonstrate what data will be provided in JSON container.
+  - [x] Create back-end of the API on PHP to handle conditional requests like coordinates, name and MMSI filtering. - https://github.com/akudrya/AIS/blob/master/server-static/server.js
+  - [x] Design sample requests to demonstrate API's work for selected types of products. So that you'll have text strings to be launched in web browser to demonstrate what data will be provided in JSON container. - http://54.153.113.251:8080/api/ais/mmsi/229166000
 
  ### Week 5 (March 16-20):
  - Demo API implementation + reporting
-  - Integrate more complex logic of showing data in Mapbox UI. Currently I've only labeled but all points from a sample dataset, filtered repeated dots and added representation of vessel's direction.
-  - Launch AWS virtual machine (currently I use my own web hosting Bluehost).
-  - Migrate all the data+API back-end
-  - a  report what I've done, next steps, problems and opportunities.
-  - API documentation. 
-  - Plan of further development
+  - [x] Integrate more complex logic of showing data in Mapbox UI. Currently I've only labeled but all points from a sample dataset, filtered repeated dots and added representation of vessel's direction. - Processing JSON to collect all the records
+  - [ ] Launch AWS virtual machine (currently I use my own web hosting Bluehost).
+  - [ ] Migrate all the data+API back-end
+  - [ ] a  report what I've done, next steps, problems and opportunities.
+  - [ ] API documentation. 
+  - [x] Plan of further development
 
 - Dynamic API
- - product specification: use cases, modes of work design
- - research of how to integrate API with data received from the satellite 
+ - [x] product specification: use cases, modes of work design
+ - [x] research of how to integrate API with data received from the satellite 
 
  ### Week 5 (March 23-27):
 - Dynamic API
