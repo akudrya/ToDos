@@ -8,17 +8,27 @@ These are the way that I classified the work early on in oue conversation. Based
  - project description: study market structuree of AIS systems, identify potential partners, customers and opportunities,
  - goals: finalize specification of the product by estimating access modes, potential traffic, priority of the tasks
  - deliverables: pdf with description of user profile, market size, product description, revenue model for each API product. 
+ - results: collected data about AIS and s-AIS providers, their web-analytics, navigation mobile apps; contacted to major companies to get more details.
+ - https://github.com/akudrya/AIS/blob/master/s-AIS%20market%20research.pdf
 
 2. Prototype imagery and AIS solutions - Complete by March 6th - $2000
  - a. Project description:create a prototype application for matching vessels' coordinates and satellite images
  - b. project description:development of an algorithm for combining satellite images with AIS data
  - goals: check how satellite imagery can be enriched by AIS data
  - deliverables: develope A. proof of concept and B. MVP for finding all satellite images having a given vessel and all the vessels that are located on a satellite image.
+ - results: researched articles about detection ships on satellite images, proposed applications of AIS+Landsat data, designed illustrations of how ships can be vizualized on a Landsat image, developed a first mapbox representation of AIS+Landsat data and search, planned how can system work, found and launched data sources.
+ - https://github.com/akudrya/AIS/blob/master/Landsat%20Project/Use%20Cases/Landsat%20use%20cases%2003:17.pdf
+ - https://github.com/akudrya/AIS/blob/master/Landsat%20Project/Use%20Cases/Landsat%20use%20cases%2003:16.pdf
+ - https://github.com/akudrya/AIS/blob/master/Landsat%20Project/LandsatSearchVer1/js/app.js
 
 3. Demo API using static data - $2000
  - project description: development of demo API using static data in web-browser with UI and as API provding data in JSON. 
  - goals: demonstrate how can AIS data from Perseus-M satellite can be accessed using API and UI
  - deliverables: a web-page with UI mapping AIS data, back-end for handling requests and demo requests to API to demonstrate each product's work.  
+ - results: developed a decoder for typeA and typeB AIS messages, validation filters, statistics collection, writing data to JSON container, visualizing from Json to mapbox, mapbox clustering
+ - http://earthimages.info/aismvp
+- https://github.com/akudrya/AIS/tree/master/server-static/class%20A%2BB%20decoder
+- https://github.com/akudrya/AIS/tree/master/server-static
 
 4. Dynamic API - $2000
  - project description: R&D of system for collecting data from receining stations and giving API immidiate access to it.
