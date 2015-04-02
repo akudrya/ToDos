@@ -23,12 +23,6 @@ NDVI | Thematic - Land | Normalized Difference Vegetation Index | multispectral
 FLH / MCI |  Thematic - Land | Fluorescence Line Height and the Maximum Chlorophyll Index by exploiting the height of a measurement over a specific baseline | SAR
 Clustering: k-means & EM | Image analysis - machine learning | classification of objects into different groups | SAR & multi
 Principle Components |Image analysis - machine learning | generates the principal component images from a stack of co-registered detected images. The Principal Component Analysis (PCA) consists of a remapping of the information of the input co-registered images into a new set of images. The output images are scaled to prevent negative pixel values | SAR
-
-Mask 
-Resampling
-BandsMaths 
-BandSelect 
-Image-Filter 
-Import-Vector
-ReplaceMetadata
-TileWriter 
+ReplaceMetadata | Metadata processing | Replace the metadata of the first product with that of the second | Metadata of any 
+TileWriter | TBD | TBD | TBD
+ 
