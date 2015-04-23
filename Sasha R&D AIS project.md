@@ -4,14 +4,14 @@
 
 These are the way that I classified the work early on in oue conversation. Based on recent conversations and your research feel free to modify the projects.
 
-1. AIS market assessment - Complete by February 27th - $500
+1. AIS market assessment - Complete by February 27th 
  - project description: study market structuree of AIS systems, identify potential partners, customers and opportunities,
  - goals: finalize specification of the product by estimating access modes, potential traffic, priority of the tasks
  - deliverables: pdf with description of user profile, market size, product description, revenue model for each API product. 
  - results: collected data about AIS and s-AIS providers, their web-analytics, navigation mobile apps; contacted to major companies to get more details.
  - https://github.com/akudrya/AIS/blob/master/s-AIS%20market%20research.pdf
 
-2. Prototype imagery and AIS solutions - Complete by March 6th - $2000
+2. Prototype imagery and AIS solutions - Complete by March 6th 
  - a. Project description:create a prototype application for matching vessels' coordinates and satellite images
  - b. project description:development of an algorithm for combining satellite images with AIS data
  - goals: check how satellite imagery can be enriched by AIS data
@@ -21,7 +21,7 @@ These are the way that I classified the work early on in oue conversation. Based
  - https://github.com/akudrya/AIS/blob/master/Landsat%20Project/Use%20Cases/Landsat%20use%20cases%2003:16.pdf
  - https://github.com/akudrya/AIS/blob/master/Landsat%20Project/LandsatSearchVer1/js/app.js
 
-3. Demo API using static data - $2000
+3. Demo API using static data 
  - project description: development of demo API using static data in web-browser with UI and as API provding data in JSON. 
  - goals: demonstrate how can AIS data from Perseus-M satellite can be accessed using API and UI
  - deliverables: a web-page with UI mapping AIS data, back-end for handling requests and demo requests to API to demonstrate each product's work.  
